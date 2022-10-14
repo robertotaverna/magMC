@@ -35,10 +35,10 @@ COMMON/TWIST/p0
   GammaB=1.D0/sqrt(1.D0-BetaB**2) ; Bes1=BESSK1N(1.D0/Tel)
   VMean = BetaB
   call init_field(p0)            
-  call PATCHES( )       ! Initialize patches
-  CALL RANDOM_SEED( )   ! E' sufficiente una sola chiamata all'inizio
-  DO ip=itmin,itmax     ! loop for Theta (surface patches)
-     DO jp=ipmin,ipmax  ! loop for Phi
+  call PATCHES( )
+  CALL RANDOM_SEED( )
+  DO ip=itmin,itmax
+     DO jp=ipmin,ipmax
           write(*,'(A)') ' '
           CALL MainInteg(Nphot,ip,jp)  ; Npa = Npa+1
 		  write(*,'(1X,A15,I3,A7,I3)') '- This is Patch ',Npa,' out of',(itmax-itmin+1)*(ipmax-ipmin+1)
