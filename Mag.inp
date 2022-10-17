@@ -16,10 +16,10 @@
     read(1,*,err=100)  Emin, Emax 
     read(1,*,err=100)  Printout      
 ====================================
-Se ip = 0 esegue il loop da 1 a NTheta - Se no fa solo patch ip
-Se jp = 0 esegue il loop da 1 a NPhi - Se no fa solo patch jp
-Se FlagP =  0  alterna un fotone ordinario e uno straordinario
-         =  1  lancia solo fotoni ordinari
-         = -1  lancia solo fotoni straordinari
-Printout = 0 esclude print su monitor
-         = intero > 500 stampa info ogni 500 fotoni
+If ip = 0 runs the loop from 1 to NTheta - If not, only the patch ip
+If jp = 0 runs the loop from 1 to NPhi - If not, only the patch jp
+If FlagP =  0  switches from an O-mode to an X-mode photon
+         =  1  launches O-mode photons only
+         = -1  launches X-mode photons only
+Printout = 0 prevent output on the screen
+         = integer > 500 prints info every > 500 photons
