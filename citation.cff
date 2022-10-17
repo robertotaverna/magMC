@@ -1,0 +1,17 @@
+@ARTICLE{2020MNRAS.492.5057T,
+       author = {{Taverna}, R. and {Turolla}, R. and {Suleimanov}, V. and {Potekhin}, A.~Y. and {Zane}, S.},
+        title = "{X-ray spectra and polarization from magnetar candidates}",
+      journal = {\mnras},
+     keywords = {polarization, radiative transfer, scattering, techniques: polarimetric, stars: magnetars, X-rays: stars, Astrophysics - High Energy Astrophysical Phenomena},
+         year = 2020,
+        month = mar,
+       volume = {492},
+       number = {4},
+        pages = {5057-5074},
+          doi = {10.1093/mnras/staa204},
+archivePrefix = {arXiv},
+       eprint = {2001.07663},
+ primaryClass = {astro-ph.HE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.5057T},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
